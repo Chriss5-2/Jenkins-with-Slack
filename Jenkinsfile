@@ -12,7 +12,7 @@ pipeline {
             steps {
                 // Esta función asume que ya configuraste el plugin y las credenciales en Jenkins
                 slackSend(
-                    channel: '#general', // Cambia esto si usas otro canal
+                    channel: '#ec2-alert', // Cambia esto si usas otro canal
                     color: 'good',
                     message: "🚀 ¡Alerta de Infraestructura! El servidor EC2 acaba de encenderse y Jenkins está operativo."
                 )
