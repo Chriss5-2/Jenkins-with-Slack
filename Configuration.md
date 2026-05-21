@@ -61,3 +61,5 @@ En la sección de **Configurar** del pipeline, en la sección **Triggers** marca
 Luego en el repositorio de GitHub vamos a **Settings** > **Webhooks** -> **Add Webhook**:
 - Payload URL: http://<IP-Servidor>:8080/github-webhook/
 - Content type: application/json
+
+Para probarlo solo en el repositorio modificamos algo, le hacemos push y en Jenkins automaticamente empieza a cargar el Pipeline
